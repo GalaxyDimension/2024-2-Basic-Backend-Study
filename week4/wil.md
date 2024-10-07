@@ -5,7 +5,7 @@
 - 데이터를 쉽게 접근하고 분석할 수 있도록 도와줌
 
 #### 관계형 데이터베이스 (RDBMS: Relational Database Management System)
-- 데이터를 **행(Row)**과 **열(Column)**로 구성된 테이블(Table) 형태로 저장하는 데이터베이스
+- 데이터를 행(Row)과 열(Column)로 구성된 테이블(Table) 형태로 저장하는 데이터베이스
 - 테이블 간에 관계를 정의하고, 이를 통해 데이터를 연결하고 조작
   - 예시: MySQL, PostgreSQL, Oracle, Microsoft SQL Server
 ##### 특징
@@ -25,7 +25,7 @@
 
 ### 장고 Model
 - Model은 데이터베이스의 테이블과 대응
-- 테이블의 **열(Column)**은 장고 모델에서 **필드(Field)**로 정의
+- 테이블의 열(Column)은 장고 모델에서 필드(Field)로 정의
 - 모델은 클래스로 정의
 - 각 클래스는 데이터베이스의 하나의 테이블
 - 클래스의 속성들은 데이터베이스의 테이블에서 열에 해당
